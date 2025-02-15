@@ -47,7 +47,7 @@ When Cline attempts to install your MCP server, it will:
 
 **Key goals:**
 
-*   Provide an LLM with all the context it needs (dependencies, steps, environment variables, etc.) in a single file.
+*   Provide an LLM with all the context it needs (dependencies, steps, environment variables, etc.)
 *   Clarify any optional vs. required API keys and how they should be used.
 *   Reduce user frustration by minimizing guesswork the AI would otherwise have to do.
 
