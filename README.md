@@ -139,7 +139,7 @@ This guide helps an LLM agent install and configure the XYZ MCP Server.
 ## FAQ
 
 1.  **Do I have to create a `llms-installation.md` file?**  
-    It’s not mandatory, but strongly recommended. Without it, Cline will rely on your general README, which might not always have enough detail to automate the entire install process reliably.
+    No. A well-written README with clear installation instructions is usually sufficient. Cline is quite good at understanding standard README files. The `llms-installation.md` file is an optional enhancement you can use for complex setups or when you want to provide additional AI-specific guidance.
 2.  **Can I submit my MCP server if it’s still in alpha?**  
     Absolutely! We welcome all sorts of experiments and innovations. Just make sure users know about any instability or incomplete features.
 3.  **How long does the approval process take?**  
