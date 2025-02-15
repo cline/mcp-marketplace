@@ -28,7 +28,7 @@ Welcome to the **MCP Marketplace** repository! This is where anyone can submit t
 
 ## What is the MCP Marketplace?
 
-The **MCP Marketplace** is akin to an “app store” within the Cline's VS Code extension. It lets you:
+The **MCP Marketplace** is akin to an “app store” within Cline's VS Code extension. It lets you:
 
 1.  Browse a list of popular or community-created MCP servers.
 2.  Search by name, category, tags, and other metadata.
