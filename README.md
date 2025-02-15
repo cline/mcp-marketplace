@@ -37,9 +37,13 @@ The **MCP Marketplace** is akin to an “app store” within Cline's VS Code ext
 
 ## Why Use `llms-installation.md`?
 
-While a traditional README offers a human audience an overview of how to install and use a project, LLMs often need more explicit, step-by-step instructions to handle the entire setup independently. That’s where the `llms-installation.md` file comes in. This file is written **for the AI**—it spells out exactly how to install and configure your MCP server so that an autonomous coding agent (like Cline) can do all the heavy lifting on behalf of the user. 
+The key to a successful MCP server is clear, detailed installation instructions that both humans and AI agents can follow. Most well-written README files already do this job perfectly! Cline is quite good at understanding standard README files and can successfully install most MCP servers using just the README.
 
-> Note: Cline can install most MCP servers just fine without an llms-installation.md file. This is because Cline is quite good at understanding regular README files. However, for complex installations or when you want to ensure the most reliable automated setup, you may choose to provide more explicit instructions through llms-installation.md.
+For complex setups or when you want to provide additional AI-specific guidance, you can optionally create a separate `llms-installation.md` file. This dedicated file lets you include extra context or more explicit instructions specifically formatted for AI agents, without cluttering your main README.
+
+When Cline attempts to install your MCP server, it will:
+1. Check for installation instructions in your README
+2. If present, also consider any additional guidance in `llms-installation.md`
 
 **Key goals:**
 
@@ -54,7 +58,7 @@ When you’re ready to add your MCP server to the Marketplace, please ensure you
 1.  **A GitHub Repository** containing your MCP server implementation.
 2.  **A 400×400 PNG Image** to represent your MCP server in the Marketplace UI.
 3.  **A short justification** (a sentence or two) describing why you think your MCP server belongs in the Marketplace.
-4.  **A `llms-installation.md` file present in your repo** (highly recommended for reliable AI-driven setup—see below for best practices).
+4.   **Clear installation instructions** in your README. Optionally, you can also include a `llms-installation.md` file for additional AI-specific guidance.
 
 ## How to Submit your MCP Server
 
