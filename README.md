@@ -6,7 +6,7 @@ Welcome to the **MCP Marketplace** repository! This is where anyone can submit t
 
 1.  [What is MCP?](#what-is-mcp)
 2.  [What is the MCP Marketplace?](#what-is-the-mcp-marketplace)
-3.  [Why Use `llms-installation.md`?](#why-use-llms-installationmd)
+3.  [When Should I Use `llms-installation.md`?](#when-should-i-use-llms-installationmd)
 4.  [Submission Requirements](#submission-requirements)
 5.  [How to Submit your MCP Server](#how-to-submit-your-mcp-server)
 6.  [Making Your MCP Server Installation-Friendly](#making-your-mcp-server-installation-friendly)
@@ -35,7 +35,7 @@ The **MCP Marketplace** is akin to an “app store” within Cline's VS Code ext
 3.  Install MCP servers with one click, triggering Cline to autonomously handle cloning, setup, and configuration.
 4.  Configure any required API keys or preferences on the fly, guided by Cline.
 
-## Why Use `llms-installation.md`?
+## When Should I Use `llms-installation.md`?
 
 The key to a successful MCP server is clear, detailed installation instructions that both humans and AI agents can follow. Most well-written README files already do this job perfectly! Cline is quite good at understanding standard README files and can successfully install most MCP servers using just the README.
 
