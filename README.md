@@ -1,9 +1,5 @@
 # MCP Marketplace
 
-This repository explains how to add your MCP server to Cline's official MCP Marketplace and introduces the `llms-installation.md` standard for streamlined, AI-driven setup.
-
-## Introduction
-
 Welcome to the **MCP Marketplace** repository! This is where anyone can submit their MCP (Model Context Protocol) servers for seamless integration with Cline. Once approved, your server will be listed in Cline’s in-extension marketplace, enabling users to discover, install, and configure MCP servers with minimal friction.
 
 ## Table of Contents
