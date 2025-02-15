@@ -37,7 +37,7 @@ The **MCP Marketplace** is akin to an “app store” within Cline's VS Code ext
 
 ## Why Use `llms-installation.md`?
 
-While a traditional README offers a human audience an overview of how to install and use a project, LLMs often need more explicit, step-by-step instructions to handle the entire setup independently. That’s where the `llms-installation.md` file comes in. This file is written **for the AI**—it spells out exactly how to install and configure your MCP server so that an autonomous coding agent (like CLINE) can do all the heavy lifting on behalf of the user. 
+While a traditional README offers a human audience an overview of how to install and use a project, LLMs often need more explicit, step-by-step instructions to handle the entire setup independently. That’s where the `llms-installation.md` file comes in. This file is written **for the AI**—it spells out exactly how to install and configure your MCP server so that an autonomous coding agent (like Cline) can do all the heavy lifting on behalf of the user. 
 
 **Key goals:**
 
