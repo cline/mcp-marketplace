@@ -1,6 +1,6 @@
 # MCP Marketplace
 
-Welcome to the **MCP Marketplace** repository! This is where anyone can submit their MCP (Model Context Protocol) servers for seamless integration with Cline. Once approved, your server will be listed in Cline’s in-extension marketplace, enabling users to discover, install, and configure MCP servers with minimal friction.
+Welcome to the **MCP Marketplace** repository! This is where anyone can submit their MCP (Model Context Protocol) servers for seamless integration with Cline. Once approved, your server will be listed in Cline’s in-extension marketplace, enabling thousands of people to discover, install, and configure MCP servers with minimal friction.
 
 ## Table of Contents
 
