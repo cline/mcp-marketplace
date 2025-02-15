@@ -60,7 +60,7 @@ When you’re ready to add your MCP server to the Marketplace, please ensure you
 2.  **Include the Following Info** in the Issue:
     *   **GitHub Repo URL:** A direct link to the MCP server’s repository (nested links are also okay like in this [example](https://github.com/modelcontextprotocol/servers/tree/main/src/github))
     *   **Logo Image URL:** A link to a 400×400 PNG that will serve as your server’s icon.
-    *   **Reason for Addition:** Briefly explain why your server is awesome and/or how it can benefit other CLINE users.
+    *   **Reason for Addition:** Briefly explain why your server is awesome and/or how it can benefit other Cline users.
 3.  **(Optional but Recommended) Mention Your `llms-installation.md` File:** If you have created one, note it or link to it so the reviewers can ensure it’s properly formatted.
 4.  Confirm that you have tested giving Cline just your `README.md` and/or the `llms-installation.md` and watched him successfully setup the server. This will save our reviewers a lot of time manually setting up servers prior to approval.
 
