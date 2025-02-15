@@ -39,6 +39,8 @@ The **MCP Marketplace** is akin to an “app store” within Cline's VS Code ext
 
 While a traditional README offers a human audience an overview of how to install and use a project, LLMs often need more explicit, step-by-step instructions to handle the entire setup independently. That’s where the `llms-installation.md` file comes in. This file is written **for the AI**—it spells out exactly how to install and configure your MCP server so that an autonomous coding agent (like Cline) can do all the heavy lifting on behalf of the user. 
 
+> Note: Cline can install most MCP servers just fine without an llms-installation.md file. This is because Cline is quite good at understanding regular README files. However, for complex installations or when you want to ensure the most reliable automated setup, you may choose to provide more explicit instructions through llms-installation.md.
+
 **Key goals:**
 
 *   Provide an LLM with all the context it needs (dependencies, steps, environment variables, etc.) in a single file.
