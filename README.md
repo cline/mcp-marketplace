@@ -69,9 +69,9 @@ We review all submissions to ensure quality, **seamless installation**, and comp
 
 ## Making Your MCP Server Installation-Friendly
 
-While not required, we strongly recommend including an `llms-installation.md` file in your repository. This file helps AI agents like Cline reliably install your MCP server by providing clear, structured installation instructions.
+While not required, you can include a `llms-installation.md` file in your repository. This file helps AI agents like Cline reliably install your MCP server by providing clear, structured installation instructions.
 
-The standard `README.md` works great for humans, but `llms-installation.md` is specifically designed for AI agents to understand installation requirements and steps.
+The standard `README.md` works great for humans, but `llms-installation.md` can be more explicit for AI agents to understand installation and api key requirements.
 
 ### Best Practices for `llms-installation.md`
 
