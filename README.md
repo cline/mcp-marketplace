@@ -41,7 +41,7 @@ The key to a successful MCP server is clear, detailed installation instructions 
 
 For complex setups or when you want to provide additional AI-specific guidance, you can optionally create a separate `llms-install.md` file. This dedicated file lets you include extra context or more explicit instructions specifically formatted for AI agents, without cluttering your main README.
 
-When Cline attempts to install your MCP server, it will:
+When Cline attempts to install your MCP server, he will:
 1. Check for installation instructions in your README
 2. If present, also consider any additional guidance in `llms-install.md`
 
