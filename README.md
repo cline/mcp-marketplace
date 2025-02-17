@@ -103,7 +103,7 @@ The standard `README.md` works great for humans, but `llms-install.md` can be mo
 
 Below is a simplified example of what your `llms-install.md` might look like. Adapt as needed for your project.
 
-# [llms-install.md](llms-install.md)
+[llms-install.md example](llms-install.md)
 
 
 ## FAQ
