@@ -1,7 +1,5 @@
 # DeepClaude MCP (Model Control Panel)
 
-[English](./README.md) | [中文](./README_CN.md)
-
 ## Overview
 DeepClaude MCP (Model Control Panel) is a powerful server application that combines the capabilities of DeepSeek and Claude AI models to deliver enhanced results. This integration allows for more accurate and comprehensive AI responses by leveraging the strengths of both models.
 
