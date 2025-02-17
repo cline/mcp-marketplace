@@ -106,34 +106,88 @@ Below is a simplified example of what your `llms-install.md` might look like. Ad
 ```
 # llms-install.md
 
+# DeepClaude MCP (Model Control Panel)
+
+[English](./README.md) | [中文](./README_CN.md)
+
 ## Overview
-This guide helps an LLM agent install and configure the XYZ MCP Server.
+DeepClaude MCP (Model Control Panel) is a powerful server application that combines the capabilities of DeepSeek and Claude AI models to deliver enhanced results. This integration allows for more accurate and comprehensive AI responses by leveraging the strengths of both models.
 
-## Steps
+## Features
+- Seamless integration of DeepSeek and Claude AI models
+- RESTful API endpoints for easy integration
+- Configurable model parameters
+- Robust error handling with Winston logger
+- Cross-origin resource sharing (CORS) support
+- TypeScript implementation for type safety
 
-1. **Clone the Repo**
-   - Command: `git clone https://github.com/username/xyz-mcp-server.git`
-   - Install dependencies: `npm install` (for Node.js) or `pip install -r requirements.txt` (for Python), etc.
+## Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn package manager
+- API keys for both DeepSeek and Claude services
 
-2. **Set Up Configuration**
-   - Create a `.env` file (if required).
-   - Include:
-     ```
-     API_KEY=
-     OPTIONAL_FEATURE_FLAG=true
-     ```
+## Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/Mrdapeng/DeepClaudeMcp.git
+cd DeepClaudeMcp
+```
 
-3. **Run the MCP Server**
-   - Command: `npm start` or `python app.py`
-   - The server listens on `localhost:8080` by default.
+2. Install dependencies:
+```bash
+yarn install
+# or
+npm install
+```
 
-## API Keys
-- **Required**: `API_KEY` from [provider.com](https://provider.com).
-- **Optional**: `ANALYTICS_KEY` for advanced telemetry.
+3. Configure environment variables:
+```bash
+cp .env.example .env
+# Edit .env file with your API keys and configuration
+```
 
-## Troubleshooting
-- **Missing Dependencies**: Make sure `node --version` is at least 14.x or `python --version` is at least 3.8.
-- **Permission Errors**: Run with elevated privileges or ensure the correct file permissions.
+## Development
+- Start development server with hot-reload:
+```bash
+yarn dev
+# or
+npm run dev
+```
+
+- Build the project:
+```bash
+yarn build
+# or
+npm run build
+```
+
+- Start production server:
+```bash
+yarn start
+# or
+npm start
+```
+
+## Project Structure
+```
+src/
+├── config/     # Configuration files
+├── services/   # Core services and API clients
+├── types/      # TypeScript type definitions
+└── index.ts    # Application entry point
+```
+
+## Dependencies
+- Express.js - Web framework
+- Axios - HTTP client
+- Winston - Logging library
+- CORS - Cross-origin resource sharing
+- dotenv - Environment configuration
+- TypeScript - Programming language
+- Jest - Testing framework
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 ```
 
 ## FAQ
