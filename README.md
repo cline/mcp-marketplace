@@ -28,7 +28,7 @@ The MCP Marketplace is a curated collection of MCP servers that makes discovery 
 1. Create a [new issue](https://github.com/cline/mcp-marketplace/issues/new) in this `mcp-marketplace` repository
 2. **Include the Following Info** in the Issue:
     - **GitHub Repo URL:** A direct link to the MCP server’s repository (nested links are also okay like in this [example](https://github.com/modelcontextprotocol/servers/tree/main/src/github))
-    - **Logo Image URL:** A link to a 400×400 PNG that will serve as your server’s icon.
+    - **Logo Image:** A 400×400 PNG that will serve as your server’s icon.
     - **Reason for Addition:** Briefly explain why your server is awesome and/or how it can benefit other Cline users.
 3. Confirm that you have tested giving Cline just your `README.md` and/or the `llms-install.md` and watched him successfully setup the server. This will save our reviewers a lot of time manually setting up servers prior to approval.
 
@@ -41,7 +41,7 @@ When Cline attempts to install your MCP server, he will try to use your `README.
 ## FAQ
 
 1.  **Do I have to create a `llms-install.md` file?**
-    No. A well-written README with clear installation instructions is usually sufficient. Cline is quite good at understanding standard README files. The `llms-install.md` file is optional to help with complex setups or when you want to provide additional AI-specific guidance.
+    No. A well-written README with clear installation instructions is usually sufficient. Cline is quite good at understanding standard README files. The `llms-install.md` file is optional to help with complex setups or when you want to provide additional guidance.
 2.  **Can I submit new MCP servers without many stars?**
     Absolutely! However, we do have a vetting process to ensure the security and stability of the MCP ecosystem.
 3.  **How long does the approval process take?**
