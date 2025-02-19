@@ -17,12 +17,12 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     id: logo
     attributes:
       label: Logo Image
-      description: Please provide a link to a 400×400 PNG that will serve as your server's icon
-      placeholder: https://example.com/path/to/logo.png
+      description: Please upload or provide a link to a 400×400 PNG that will serve as your server's icon. You can drag and drop an image here.
+      placeholder: Drag and drop your 400×400 PNG here, or provide a URL like https://example.com/path/to/logo.png
     validations:
       required: true
 
