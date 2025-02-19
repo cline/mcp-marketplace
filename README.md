@@ -6,11 +6,10 @@ Welcome to Cline's **MCP Marketplace** repository! Submit your MCP servers for o
 
 1. [What is MCP?](#what-is-mcp)
 2. [What is the MCP Marketplace?](#what-is-the-mcp-marketplace)
-3. [Submission Requirements](#submission-requirements)
-4. [How to Submit your MCP Server](#how-to-submit-your-mcp-server)
-5. [Making Your MCP Server One-Click Installable](#making-your-mcp-server-one-click-installable)
-6. [FAQ](#faq)
-7. [Get Help](#get-help)
+3. [How to Submit your MCP Server](#how-to-submit-your-mcp-server)
+4. [Making Your MCP Server One-Click Installable](#making-your-mcp-server-one-click-installable)
+5. [FAQ](#faq)
+6. [Get Help](#get-help)
 
 ## What is MCP?
 
@@ -23,15 +22,6 @@ The MCP Marketplace is a curated collection of MCP servers that makes discovery 
 1.  Browse official and community-made MCP servers
 2.  Search by name, category, tags, and other metadata
 3.  Install MCP servers with one click, triggering Cline to autonomously handle cloning, setup, and configuration.
-
-## Submission Requirements
-
-When you’re ready to add your MCP server to the Marketplace, please ensure you have:
-
-1.  **A GitHub Repository** containing your MCP server implementation.
-2.  **A 400×400 PNG Image** to represent your MCP server in the Marketplace UI.
-3.  **A short justification** (a sentence or two) describing why you think your MCP server belongs in the Marketplace.
-4.  **Clear installation instructions** in your README. Optionally, you can also include a `llms-install.md` file for additional AI-specific guidance. (See [Best Practices for `llms-install.md`](#best-practices-for-llms-installmd) for more information.)
 
 ## How to Submit your MCP Server
 
