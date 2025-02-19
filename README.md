@@ -30,7 +30,7 @@ The MCP Marketplace is a curated collection of MCP servers that makes discovery 
    - **GitHub Repo URL:** A direct link to the MCP server’s repository (nested links are also okay like in this [example](https://github.com/modelcontextprotocol/servers/tree/main/src/github))
    - **Logo Image:** A 400×400 PNG that will serve as your server’s icon.
    - **Reason for Addition:** Briefly explain why your server is awesome and/or how it can benefit other Cline users.
-3. Confirm that you have tested giving Cline just your `README.md` and/or the `llms-install.md` and watched him successfully setup the server. This will save our reviewers a lot of time manually setting up servers prior to approval.
+3. Confirm that you have tested giving Cline just your `README.md` and/or the `llms-install.md` and watched him successfully setup the server. This will help prevent rejection in case we have trouble setting up your server using Cline.
 
 That’s it! Our team will review your submission. Once approved, we’ll add your MCP server to the official Marketplace listings, and it will become discoverable by Cline users.
 
