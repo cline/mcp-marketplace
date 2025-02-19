@@ -1,0 +1,47 @@
+name: MCP Server Submission
+description: Submit your MCP server to be listed in the Cline Marketplace
+title: '[Server Submission]: '
+labels: ['server-submission']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting your MCP server to the Marketplace! Please fill out the information below.
+
+  - type: input
+    id: repo-url
+    attributes:
+      label: GitHub Repository URL
+      description: Direct link to your MCP server's repository
+      placeholder: https://github.com/username/repo
+    validations:
+      required: true
+
+  - type: input
+    id: logo
+    attributes:
+      label: Logo Image
+      description: Please provide a link to a 400×400 PNG that will serve as your server's icon
+      placeholder: https://example.com/path/to/logo.png
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: testing
+    attributes:
+      label: Installation Testing
+      description: Please confirm you've tested the installation process
+      options:
+        - label: I have tested that Cline can successfully set up this server using only the README.md and/or llms-install.md file
+          required: true
+        - label: The server is stable and ready for public use
+          required: true
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any other details you'd like to share about your submission
+      placeholder: Special setup requirements, dependencies, etc.
+    validations:
+      required: false
