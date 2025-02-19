@@ -49,7 +49,7 @@ When Cline attempts to install your MCP server, he will try to use your `README.
 
 ## Get Help
 
--   Join our [Discord](https://discord.gg/cline) and post in the `#mcp` channel if you have any questions or need help!
+Join our [Discord](https://discord.gg/cline) and post in the `#mcp` channel if you have any questions or need help!
 
 ## License
 
