@@ -7,9 +7,10 @@ Welcome to Cline's **MCP Marketplace** repository! Submit your MCP servers for o
 1. [What is MCP?](#what-is-mcp)
 2. [What is the MCP Marketplace?](#what-is-the-mcp-marketplace)
 3. [How to Submit your MCP Server](#how-to-submit-your-mcp-server)
-4. [Making Your MCP Server One-Click Installable](#making-your-mcp-server-one-click-installable)
-5. [FAQ](#faq)
-6. [Get Help](#get-help)
+4. [MCP Server Approval Process](#mcp-server-approval-process)
+5. [Making Your MCP Server One-Click Installable](#making-your-mcp-server-one-click-installable)
+6. [FAQ](#faq)
+7. [Get Help](#get-help)
 
 ## What is MCP?
 
@@ -29,10 +30,19 @@ The MCP Marketplace is a curated collection of MCP servers that makes discovery 
 2. **Include the Following Info** in the Issue:
    - **GitHub Repo URL:** A direct link to the MCP server’s repository (nested links are also okay like in this [example](https://github.com/modelcontextprotocol/servers/tree/main/src/github))
    - **Logo Image:** A 400×400 PNG that will serve as your server’s icon.
-   - **Reason for Addition:** Briefly explain why your server is awesome and/or how it can benefit other Cline users.
+   - **Reason for Addition:** Briefly explain why your server is awesome and/or how it can benefit other Cline users. Please review our [MCP Server Approval Process](#mcp-server-approval-process) to understand our conditions for approval.
 3. Confirm that you have tested giving Cline just your `README.md` and/or the `llms-install.md` and watched him successfully setup the server. This will help prevent rejection in case we have trouble setting up your server using Cline.
 
 That’s it! Our team will review your submission. Once approved, we’ll add your MCP server to the official Marketplace listings, and it will become discoverable by Cline users.
+
+## MCP Server Approval Process
+
+Our team maintains quality standards to ensure a secure and reliable marketplace experience. Submissions undergo a comprehensive review process that evaluates:
+- **Community Adoption**: We assess project traction through GitHub engagement metrics, community discussions, and overall ecosystem presence
+- **Developer Credibility**: We verify the identity and reputation of maintainers, with preference given to established organizations and developers with verifiable professional backgrounds
+- **Project Maturity**: We evaluate code quality, documentation completeness, maintenance activity, and long-term sustainability indicators
+- **Security Considerations**: We apply increased scrutiny to projects in sensitive domains (such as financial services) and require additional verification for cryptocurrency-related tools
+Our review team conducts regular evaluations of submissions. This thorough vetting process helps maintain the integrity of the MCP ecosystem while ensuring users have access to high-quality, trustworthy tools.
 
 ## Making Your MCP Server One-Click Installable
 
