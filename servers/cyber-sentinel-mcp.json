@@ -1,0 +1,156 @@
+{
+  "name": "cyber-sentinel-mcp",
+  "displayName": "Cyber Sentinel",
+  "description": "Comprehensive threat intelligence aggregation MCP server that provides unified access to multiple threat intelligence sources for security analysis",
+  "longDescription": "Cyber Sentinel eliminates the tedious manual process of querying multiple threat intelligence sources by providing a single, unified interface. Security analysts can now analyze indicators (IPs, domains, hashes, URLs) across multiple sources with a single command, getting aggregated results with confidence scoring. Features include multi-source intelligence aggregation, code security analysis, dependency vulnerability scanning, and comprehensive security reporting.",
+  "author": {
+    "name": "Zeng Junxiang",
+    "email": "jx888jx888@gmail.com",
+    "url": "https://github.com/jx888-max"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jx888-max/cyber-sentinel-mcp.git"
+  },
+  "homepage": "https://github.com/jx888-max/cyber-sentinel-mcp",
+  "license": "MIT",
+  "version": "0.1.0",
+  "categories": ["security", "analysis", "intelligence", "osint"],
+  "keywords": [
+    "threat-intelligence",
+    "cybersecurity", 
+    "osint",
+    "security-analysis",
+    "virustotal",
+    "abuseipdb",
+    "shodan",
+    "urlhaus",
+    "vulnerability-scanning",
+    "code-analysis"
+  ],
+  "installation": {
+    "type": "pip",
+    "package": "cyber-sentinel-mcp",
+    "command": "python -m cyber_sentinel.server"
+  },
+  "configuration": {
+    "required": [
+      "VIRUSTOTAL_API_KEY",
+      "ABUSEIPDB_API_KEY"
+    ],
+    "optional": [
+      "SHODAN_API_KEY",
+      "URLHAUS_API_KEY"
+    ],
+    "example": {
+      "claude_desktop": {
+        "mcpServers": {
+          "cyber-sentinel": {
+            "command": "python",
+            "args": ["-m", "cyber_sentinel.server"],
+            "env": {
+              "VIRUSTOTAL_API_KEY": "your_virustotal_key",
+              "ABUSEIPDB_API_KEY": "your_abuseipdb_key",
+              "SHODAN_API_KEY": "your_shodan_key"
+            }
+          }
+        }
+      }
+    }
+  },
+  "capabilities": [
+    "Multi-source threat intelligence aggregation",
+    "IP address reputation analysis",
+    "Domain security assessment", 
+    "File hash malware detection",
+    "URL safety verification",
+    "Code security vulnerability analysis",
+    "Dependency vulnerability scanning",
+    "Docker security configuration analysis",
+    "Kubernetes security policy scanning",
+    "Comprehensive security reporting"
+  ],
+  "tools": [
+    {
+      "name": "analyze_indicator",
+      "description": "Analyzes security indicators (IP, domain, hash, URL) across multiple threat intelligence sources"
+    },
+    {
+      "name": "check_api_status", 
+      "description": "Checks the configuration and status of all threat intelligence sources"
+    },
+    {
+      "name": "analyze_code_security",
+      "description": "Performs comprehensive security analysis of source code"
+    },
+    {
+      "name": "scan_project_dependencies",
+      "description": "Scans project dependencies for security vulnerabilities"
+    },
+    {
+      "name": "analyze_docker_security",
+      "description": "Analyzes Docker configurations for security best practices"
+    },
+    {
+      "name": "scan_kubernetes_config",
+      "description": "Scans Kubernetes manifests for security issues"
+    },
+    {
+      "name": "generate_security_report",
+      "description": "Generates comprehensive security reports with visualizations"
+    }
+  ],
+  "supportedIndicators": [
+    "IPv4 addresses",
+    "Domain names", 
+    "File hashes (MD5, SHA1, SHA256)",
+    "URLs"
+  ],
+  "threatIntelSources": [
+    "VirusTotal",
+    "AbuseIPDB", 
+    "URLhaus",
+    "Shodan",
+    "ThreatFox",
+    "MalwareBazaar"
+  ],
+  "features": [
+    "Async performance with concurrent processing",
+    "Smart caching (1-hour TTL)",
+    "Rate limiting (60 req/min default)",
+    "Error recovery and graceful API failure handling",
+    "Zero data storage for privacy",
+    "Comprehensive logging and diagnostics",
+    "Multi-language code analysis support",
+    "Docker and Kubernetes security scanning"
+  ],
+  "useCases": [
+    "Security incident response",
+    "Threat hunting",
+    "IOC analysis", 
+    "Malware research",
+    "Network security monitoring",
+    "OSINT investigations",
+    "Code security auditing",
+    "DevOps security integration"
+  ],
+  "requirements": {
+    "python": ">=3.8",
+    "dependencies": [
+      "mcp>=1.0.0",
+      "httpx>=0.25.0",
+      "pydantic>=2.0.0"
+    ]
+  },
+  "documentation": {
+    "readme": "https://github.com/jx888-max/cyber-sentinel-mcp/blob/main/README.md",
+    "installation": "https://github.com/jx888-max/cyber-sentinel-mcp/blob/main/PUBLISHING_GUIDE.md",
+    "contributing": "https://github.com/jx888-max/cyber-sentinel-mcp/blob/main/CONTRIBUTING.md"
+  },
+  "support": {
+    "issues": "https://github.com/jx888-max/cyber-sentinel-mcp/issues",
+    "email": "jx888jx888@gmail.com"
+  },
+  "created": "2025-07-19",
+  "updated": "2025-07-19"
+}
