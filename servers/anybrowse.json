@@ -1,0 +1,89 @@
+{
+  "name": "anybrowse",
+  "displayName": "AnyBrowse",
+  "description": "Converts any URL to clean, LLM-ready Markdown using real Chrome browsers. Supports single-page scraping, multi-URL crawling, and Google SERP search.",
+  "longDescription": "AnyBrowse is a remote MCP server that takes any URL and returns clean Markdown that LLMs can actually use. Unlike simple HTTP fetches, it runs real Chrome browsers with full JavaScript execution, handling SPAs, dynamic content, and complex page rendering. Available as a hosted service with zero setup: just add the MCP endpoint URL to your client config. Supports three tools: scrape (single URL to Markdown), crawl (Google search + scrape top results), and search (Google SERP results as JSON). Uses x402 micropayments (USDC on Base) for paid endpoints, no API keys or subscriptions needed.",
+  "author": {
+    "name": "kc23go",
+    "url": "https://github.com/kc23go"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kc23go/anybrowse.git"
+  },
+  "homepage": "https://anybrowse.dev",
+  "license": "MIT",
+  "categories": ["web-scraping", "browser-automation", "search"],
+  "keywords": [
+    "web-scraping",
+    "browser-automation",
+    "markdown",
+    "chrome",
+    "mcp",
+    "llm",
+    "search",
+    "serp",
+    "crawl",
+    "x402",
+    "micropayments",
+    "streamable-http"
+  ],
+  "installation": {
+    "type": "remote",
+    "url": "https://anybrowse.dev/mcp",
+    "transport": "streamable-http"
+  },
+  "configuration": {
+    "required": [],
+    "optional": [],
+    "example": {
+      "cline": {
+        "mcpServers": {
+          "anybrowse": {
+            "type": "streamable-http",
+            "url": "https://anybrowse.dev/mcp"
+          }
+        }
+      }
+    }
+  },
+  "capabilities": [
+    "Convert any URL to clean LLM-ready Markdown",
+    "Full JavaScript execution via real Chrome browsers",
+    "Handle SPAs, dynamic content, and complex page rendering",
+    "Google search and scrape top results in one call",
+    "Google SERP results as structured JSON",
+    "Zero setup - hosted remote MCP server",
+    "No API keys required - x402 micropayments"
+  ],
+  "tools": [
+    {
+      "name": "scrape",
+      "description": "Convert any URL to clean, LLM-ready Markdown using a real Chrome browser with full JavaScript execution"
+    },
+    {
+      "name": "crawl",
+      "description": "Google search a query and scrape the top results, returning combined Markdown content"
+    },
+    {
+      "name": "search",
+      "description": "Perform a Google SERP search and return structured results as JSON"
+    }
+  ],
+  "features": [
+    "Real Chrome browsers with full JavaScript rendering",
+    "Streamable HTTP MCP transport",
+    "x402 micropayments (USDC on Base) - no API keys needed",
+    "A2A agent card for agent-to-agent discovery",
+    "Self-healing browser recovery",
+    "Self-optimizing domain pattern learning"
+  ],
+  "documentation": {
+    "readme": "https://github.com/kc23go/anybrowse/blob/main/README.md"
+  },
+  "support": {
+    "issues": "https://github.com/kc23go/anybrowse/issues"
+  },
+  "created": "2026-02-20",
+  "updated": "2026-02-20"
+}
