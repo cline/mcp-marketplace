@@ -1,0 +1,83 @@
+{
+  "name": "mcp-doctor",
+  "displayName": "MCP Doctor",
+  "description": "Diagnose, secure, and benchmark your MCP servers. Zero-config CLI that auto-discovers configs across Claude Code, Cursor, VS Code, Windsurf, and Claude Desktop.",
+  "longDescription": "MCP Doctor is a diagnostics CLI for MCP server configurations. It auto-discovers MCP configs across Claude Code, Cursor, VS Code, Windsurf, and Claude Desktop, then lets you scan connections, audit for hardcoded secrets, and benchmark latency. Three tools: scan (discover and test MCP server connections), security (audit configs for hardcoded secrets and sensitive data), and bench (benchmark server startup and tool-call latency). Works out of the box with zero configuration required.",
+  "author": {
+    "name": "realwigu",
+    "url": "https://github.com/realwigu"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/realwigu/mcp-doctor.git"
+  },
+  "license": "MIT",
+  "categories": ["diagnostics", "security", "developer-tools"],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "diagnostics",
+    "security",
+    "benchmark",
+    "cli",
+    "claude",
+    "cursor",
+    "vscode",
+    "windsurf"
+  ],
+  "installation": {
+    "type": "npm",
+    "package": "@wigu/mcp-doctor",
+    "command": "npx @wigu/mcp-doctor"
+  },
+  "configuration": {
+    "required": [],
+    "optional": [],
+    "example": {
+      "cline": {
+        "mcpServers": {
+          "mcp-doctor": {
+            "command": "npx",
+            "args": ["@wigu/mcp-doctor"]
+          }
+        }
+      }
+    }
+  },
+  "capabilities": [
+    "Auto-discover MCP configs across Claude Code, Cursor, VS Code, Windsurf, and Claude Desktop",
+    "Scan and test MCP server connections",
+    "Audit configs for hardcoded secrets and sensitive data",
+    "Benchmark server startup and tool-call latency",
+    "Zero-config setup with sensible defaults"
+  ],
+  "tools": [
+    {
+      "name": "scan",
+      "description": "Discover and test MCP server connections across all supported editors and clients"
+    },
+    {
+      "name": "security",
+      "description": "Audit MCP configurations for hardcoded secrets and sensitive data exposure"
+    },
+    {
+      "name": "bench",
+      "description": "Benchmark MCP server startup time and tool-call latency"
+    }
+  ],
+  "features": [
+    "Auto-discovery of MCP configurations across multiple editors",
+    "Security scanning for hardcoded secrets",
+    "Latency benchmarking for MCP servers",
+    "Interactive terminal UI with color output",
+    "Cross-platform support (macOS, Linux, Windows)"
+  ],
+  "documentation": {
+    "readme": "https://github.com/realwigu/mcp-doctor/blob/main/README.md"
+  },
+  "support": {
+    "issues": "https://github.com/realwigu/mcp-doctor/issues"
+  },
+  "created": "2026-03-14",
+  "updated": "2026-03-14"
+}
