@@ -1,0 +1,93 @@
+{
+  "name": "banksync-mcp",
+  "displayName": "BankSync MCP",
+  "description": "Connect AI agents to 15,000+ bank accounts — transactions, balances, investments, and loans.",
+  "longDescription": "BankSync MCP is a Model Context Protocol server with 28 tools that gives AI agents secure, read-write access to financial data across 15,000+ institutions via Plaid (US/UK/CA) and Basiq (AU/NZ). Query transactions, check balances, track investments and loans, and sync data to Notion, Google Sheets, and Airtable — all through conversation.",
+  "author": {
+    "name": "BankSync",
+    "url": "https://github.com/banksynchq"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/banksynchq/banksync-mcp.git"
+  },
+  "homepage": "https://banksync.io",
+  "license": "MIT",
+  "version": "1.0.2",
+  "categories": ["Finance & Fintech", "Data & Databases", "Productivity"],
+  "keywords": ["banking", "finance", "fintech", "transactions", "plaid", "investments", "notion", "google-sheets", "airtable"],
+  "installation": {
+    "type": "remote",
+    "url": "https://mcp.banksync.io",
+    "transport": "streamable-http"
+  },
+  "configuration": {
+    "required": ["BANKSYNC_API_KEY"],
+    "optional": [],
+    "example": {
+      "cline": {
+        "mcpServers": {
+          "banksync": {
+            "url": "https://mcp.banksync.io",
+            "headers": {
+              "X-API-Key": "your-key"
+            }
+          }
+        }
+      }
+    }
+  },
+  "capabilities": [
+    "Query bank transactions with date ranges and incremental sync",
+    "Fetch live account balances from 15,000+ institutions",
+    "Access investment holdings, trades, and loan details",
+    "Create automated data pipelines to Notion, Google Sheets, and Airtable",
+    "Manage bank connections, workspaces, and sync jobs"
+  ],
+  "tools": [
+    { "name": "list_workspaces", "description": "List all workspaces the authenticated user belongs to" },
+    { "name": "get_workspace", "description": "Get workspace name, plan, and settings" },
+    { "name": "list_integrations", "description": "List connected destination integrations (Notion, Sheets, Airtable)" },
+    { "name": "delete_integration", "description": "Remove a destination integration from a workspace" },
+    { "name": "list_banks", "description": "List connected bank/institution connections" },
+    { "name": "get_bank", "description": "Get a bank connection and its live accounts" },
+    { "name": "create_bank_link", "description": "Initiate a new bank connection" },
+    { "name": "connect_bank", "description": "Complete a Plaid bank connection" },
+    { "name": "delete_bank", "description": "Remove a bank connection" },
+    { "name": "list_accounts", "description": "Fetch live accounts for a bank connection" },
+    { "name": "get_account", "description": "Fetch a single account's details" },
+    { "name": "get_transactions", "description": "Fetch bank transactions with date range or cursor sync" },
+    { "name": "get_balance", "description": "Fetch the current live balance for an account" },
+    { "name": "get_holdings", "description": "Get current investment holdings" },
+    { "name": "get_trades", "description": "Get investment transactions (buys, sells, dividends)" },
+    { "name": "get_loan", "description": "Get loan details (balance, interest rate, next payment)" },
+    { "name": "list_feeds", "description": "List all data pipeline feeds" },
+    { "name": "get_feed", "description": "Get full configuration of a feed pipeline" },
+    { "name": "create_feed", "description": "Create a new data pipeline feed" },
+    { "name": "update_feed", "description": "Update a feed's configuration or schedule" },
+    { "name": "validate_feed", "description": "Pre-flight validate a feed configuration" },
+    { "name": "delete_feed", "description": "Permanently delete a feed" },
+    { "name": "list_jobs", "description": "List sync job history for a feed" },
+    { "name": "get_job", "description": "Get status and progress of a sync job" },
+    { "name": "trigger_sync", "description": "Queue a new sync job" },
+    { "name": "cancel_job", "description": "Cancel a queued or in-progress sync job" },
+    { "name": "get_data_type_schema", "description": "Get available source fields for a data type" },
+    { "name": "list_feed_sources", "description": "List supported feed source types and data type combinations" }
+  ],
+  "features": [
+    "28 MCP tools across 7 categories",
+    "15,000+ supported financial institutions via Plaid and Basiq",
+    "Sync to Notion, Google Sheets, and Airtable",
+    "Role-based access control (owner/admin/editor/viewer)",
+    "Supports transactions, balances, investments, trades, and loans",
+    "Remote server — no local install required"
+  ],
+  "documentation": {
+    "readme": "https://github.com/banksynchq/banksync-mcp/blob/main/README.md"
+  },
+  "support": {
+    "issues": "https://github.com/banksynchq/banksync-mcp/issues"
+  },
+  "created": "2026-03-04",
+  "updated": "2026-03-19"
+}
