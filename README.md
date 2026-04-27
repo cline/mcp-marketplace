@@ -64,3 +64,11 @@ Join our [Discord](https://discord.gg/cline) and post in the `#mcp` channel if y
 ## License
 
 This repository is distributed under the [MIT License](LICENSE). Please note that individual MCP server submissions may use different licenses, so review the original repo’s license for details.
+
+## 💰 Bounty Contribution
+
+- **Task:** [Server Submission]: socialintel-mcp — Instagram influencer search via x402 USDC
+- **Reward:** $402
+- **Source:** GitHub-Paid
+- **Date:** 2026-04-27
+
