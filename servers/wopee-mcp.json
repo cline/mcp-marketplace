@@ -1,0 +1,127 @@
+{
+  "name": "wopee-mcp",
+  "displayName": "Wopee MCP",
+  "description": "AI-powered autonomous testing for web apps through Wopee.io.",
+  "longDescription": "Wopee MCP connects MCP-compatible AI agents to Wopee.io so teams can dispatch web app analysis crawls, generate testing artifacts, run AI agent tests, and fetch execution results directly from their MCP client. It supports autonomous testing workflows for web applications, including suite management, generated user stories and test cases, Playwright code artifacts, and project test results.",
+  "author": {
+    "name": "Wopee.io",
+    "url": "https://github.com/Wopee-io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wopee-io/wopee-mcp.git"
+  },
+  "homepage": "https://wopee.io/mcp/",
+  "license": "MIT",
+  "version": "1.26.2",
+  "categories": ["testing", "qa", "developer-tools"],
+  "keywords": [
+    "wopee",
+    "wopee.io",
+    "mcp",
+    "model-context-protocol",
+    "ai-testing",
+    "autonomous-testing",
+    "test-automation",
+    "visual-testing",
+    "playwright",
+    "web-apps"
+  ],
+  "installation": {
+    "type": "npm",
+    "package": "wopee-mcp",
+    "command": "npx -y wopee-mcp@latest"
+  },
+  "configuration": {
+    "required": ["WOPEE_PROJECT_UUID", "WOPEE_API_KEY"],
+    "optional": ["WOPEE_API_URL", "HTTPS_PROXY", "HTTP_PROXY", "NODE_EXTRA_CA_CERTS"],
+    "example": {
+      "cline": {
+        "mcpServers": {
+          "wopee": {
+            "command": "npx",
+            "args": ["-y", "wopee-mcp@latest"],
+            "env": {
+              "WOPEE_PROJECT_UUID": "your-project-uuid-here",
+              "WOPEE_API_KEY": "your-api-key-here"
+            }
+          }
+        }
+      }
+    }
+  },
+  "capabilities": [
+    "Dispatch autonomous analysis and crawling suites for web applications",
+    "Create blank suites for manual test configuration",
+    "Generate app context, user stories, test cases, test steps, and Playwright code artifacts",
+    "Fetch and update generated testing artifacts",
+    "Dispatch AI agent tests for selected suites",
+    "Fetch executed test cases and coordinate testing updates through project chat",
+    "Create GitHub issues from discovered test failures when GitHub integration is configured"
+  ],
+  "tools": [
+    {
+      "name": "wopee_fetch_analysis_suites",
+      "description": "Fetch all analysis suites for the configured Wopee project"
+    },
+    {
+      "name": "wopee_dispatch_analysis",
+      "description": "Create and dispatch a new analysis or crawling suite, or rerun an existing suite"
+    },
+    {
+      "name": "wopee_create_blank_suite",
+      "description": "Create an empty analysis suite for manual configuration"
+    },
+    {
+      "name": "wopee_generate_artifact",
+      "description": "Generate testing artifacts such as app context, user stories, test cases, test steps, and reusable test assets"
+    },
+    {
+      "name": "wopee_fetch_artifact",
+      "description": "Fetch generated artifacts, including app context, user stories, Playwright code, and project context"
+    },
+    {
+      "name": "wopee_update_artifact",
+      "description": "Update generated testing artifacts for a suite"
+    },
+    {
+      "name": "wopee_dispatch_agent",
+      "description": "Dispatch AI agent tests for a suite"
+    },
+    {
+      "name": "wopee_fetch_executed_test_cases",
+      "description": "Fetch executed test cases and their results"
+    },
+    {
+      "name": "wopee_send_chat_message",
+      "description": "Send status updates or informational messages to the current project's chat room"
+    },
+    {
+      "name": "wopee_read_chat_history",
+      "description": "Read recent messages from the current project's chat room"
+    },
+    {
+      "name": "wopee_create_github_issue",
+      "description": "Create a GitHub issue in the project's connected repository for bugs, test failures, or action items"
+    }
+  ],
+  "features": [
+    "AI-powered autonomous web app testing",
+    "Visual analysis crawls and generated testing artifacts",
+    "AI agent test dispatch from MCP clients",
+    "Playwright code artifact retrieval",
+    "Project chat updates and history access",
+    "GitHub issue creation for connected repositories",
+    "Project status and test result access",
+    "Corporate proxy and custom certificate support"
+  ],
+  "documentation": {
+    "readme": "https://github.com/Wopee-io/wopee-mcp/blob/main/README.md",
+    "docs": "https://docs.wopee.io/guides/wopee-mcp/"
+  },
+  "support": {
+    "issues": "https://github.com/Wopee-io/wopee-mcp/issues"
+  },
+  "created": "2025-09-20",
+  "updated": "2026-05-14"
+}
